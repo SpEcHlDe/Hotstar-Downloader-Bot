@@ -16,3 +16,5 @@ dnspython
 tldextract
 filetype
 olefile
+youtube-dl
+youtube-dlc
