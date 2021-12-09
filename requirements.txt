@@ -18,3 +18,4 @@ filetype
 olefile
 youtube-dl
 youtube-dlc
+yt-dlc
