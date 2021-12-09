@@ -50,3 +50,6 @@ class Config(object):
     
     # database uri (mongodb)
     DATABASE_URL = os.environ.get("MONGO_DB", "")
+    
+    # database session name, example: xurluploader
+    SESSION_NAME = os.environ.get("SESSION_NAME", "")
