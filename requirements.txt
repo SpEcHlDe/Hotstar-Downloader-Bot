@@ -10,3 +10,9 @@ requests
 tgcrypto
 yt-dlp
 git+https://github.com/prgofficial/YouTubeDL
+motor
+https://github.com/Tinche/aiofiles/archive/master.zip
+dnspython
+tldextract
+filetype
+olefile
