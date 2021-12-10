@@ -24,7 +24,7 @@ from pyrogram import Client, filters
 
 from translation import Translation
 from helper_funcs.database import *
-from database.access import db
+from database.access import clinton
 from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
