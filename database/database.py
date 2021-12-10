@@ -37,5 +37,4 @@ class Database:
         await self.col.update_one({'id': id}, {'$set': {'thumbnail': thumbnail}})
 
     async def get_thumbnail(self, id):
-        user = await self.col.find_one({'id': int(id)})
-        return user('thumbnail', None)
+        await self.col.find_one({'id': int(id)})
